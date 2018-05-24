@@ -7,5 +7,10 @@ pipeline {
         sh 'echo \'Running shell\''
       }
     }
+    stage('Run Tests') {
+      steps {
+        sh 'echo \'Test should be run here\''
+      }
+    }
   }
 }
